@@ -40,5 +40,3 @@ for food in fav_foods:
 # for item in infinite:
 #     print(item, len(infinite))
 #     infinite.append(item + 1)
-
-eval("Jo" + "ke")
