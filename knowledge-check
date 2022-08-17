@@ -1,0 +1,52 @@
+x = 7
+
+if x < 10:
+    print("ABC")
+elif x < 8:
+    print("LMN")
+else:
+    print("XYZ")
+
+
+
+x = 7
+
+if x < 10:
+    print("ABC")
+if x < 8:
+    print("LMN")
+if x < 4:
+    print("XYZ")
+
+
+
+days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+]
+
+# Write a line of Python, here, to set the
+# third entry of days to "Bluesday"
+days[2] = "Bluesday"
+
+
+
+sum = 0
+numbers = [2, 19, 2, -8, 7]
+
+for number in numbers:
+    sum += number
+
+
+
+age = 27
+
+if age < 13:
+    message = "Your age is less than 13 years old"
+else:
+    message = "Your age is 13 or older"
